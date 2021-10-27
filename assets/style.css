@@ -4,10 +4,38 @@ html {
   background-size: cover;
 }
 
-body,html {
+/* https://coolors.co/6cd4ff-8b80f9-011627-ff3366-e0d3de */
+*{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(247, 247, 128);
+}
+
+header {
+  padding: 20px 35px;
+  padding-left: 0;
+  background-color:  #fabfcd;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+  
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  display: inline;
+  background-color: #8B80F9;
+  padding: 10px 10px 10px 100px;
+  border-radius: 0px 25px 25px 0px;
 }
 
 /* .keys {
