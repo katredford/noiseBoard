@@ -1,0 +1,151 @@
+html {
+  font-size: 10px;
+  background-color: #6CD4FF;
+  background-size: cover;
+}
+
+/* https://coolors.co/6cd4ff-8b80f9-011627-ff3366-e0d3de */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(247, 247, 128);
+}
+
+header {
+  padding: 20px 35px;
+  padding-left: 0;
+  background-color:  #fabfcd;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+  
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  display: inline;
+  background-color: #8B80F9;
+  padding: 10px 10px 10px 100px;
+  border-radius: 0px 25px 25px 0px;
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 5px;
+  font-weight: lighter;
+  font-size: 22px;
+  padding: 5px 5px;
+}
+
+header nav ul li a:hover{
+  background: #763a8b;
+  color: #3bceac;
+  border-radius: 20px;
+  padding: 5px 5px;
+}
+/* .keys {
+  display: flex;
+  flex: 1;
+  min-height: 17vh;
+  align-items: center;
+  justify-content: center;
+} */
+
+.keys {
+  display: flex;
+flex: auto;
+min-height: 17vh;
+align-items: baseline;
+justify-content: center;
+flex-wrap: wrap;
+flex-direction: row;
+align-content: center;
+}
+
+.key {
+  border: .4rem solid #ff557f;
+  border-radius: 32.5rem;
+  margin: 0.5rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 8rem;
+  text-align: center;
+  color: white;
+  background: #fabfcd;
+  text-shadow: 0 0 .5rem #FF3366;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #8B80F9;
+  box-shadow: 0 0 1rem #8B80F9;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: yellow
+  ;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+/* .flex-end {
+  justify-content: flex-end;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.mx-2 {
+  margin-right: var(--spacing-two);
+  margin-left: var(--spacing-two);
+}
+
+.my-1 {
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+}
+
+.my-2 {
+  margin-top: var(--spacing-two);
+  margin-bottom: var(--spacing-two);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
+} */ 
