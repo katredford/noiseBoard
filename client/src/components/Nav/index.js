@@ -18,8 +18,8 @@ function Nav() {
       </a>
     </h1>
     <nav>
-    <ul className="flex-row">
-      <li className="header nav">
+    <ul className="">
+      <li className=" ">
         <a href="#about">
           About
         </a>
@@ -29,7 +29,7 @@ function Nav() {
       </li>
        {categories.map((category) => (
         <li
-          className="header nav ul "
+          className=""
           key={category.name}
         >
           <span onClick={categorySelected(category.name)}>

@@ -124,11 +124,12 @@ kbd {
 /* .flex-end {
   justify-content: flex-end;
 }
+*/ 
 
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
-}
+} 
 
 .mx-2 {
   margin-right: var(--spacing-two);
@@ -148,4 +149,4 @@ kbd {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
-} */ 
+} 
