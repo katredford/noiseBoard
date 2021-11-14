@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
     const categories = [
-        { name: "archive", description: "All previous noiseboards" },
+        // { name: "archive", description: "All previous noiseboards" },
         // {name: "contact", description:"sign up for updates or ask questions"},
       ];
 
@@ -25,7 +25,14 @@ function Nav() {
         </a>
       </li>
       <li>
-        <span>Contact</span>
+        <a href="#contact"> 
+        Contact 
+        </a>
+      </li>
+      <li>
+        <a href="#archive"> 
+        Archive 
+        </a>
       </li>
        {categories.map((category) => (
         <li

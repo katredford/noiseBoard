@@ -14,7 +14,7 @@ html {
 
 a {
   text-decoration: none;
-  color: rgb(247, 247, 128);
+  color: rgb(122, 17, 221);
 }
 
 header {
@@ -33,7 +33,7 @@ header h1 {
   font-weight: bold;
   font-size: 36px;
   display: inline;
-  background-color: #8B80F9;
+  background-color: #80f9df;
   padding: 10px 10px 10px 100px;
   border-radius: 0px 25px 25px 0px;
 }
@@ -60,7 +60,7 @@ header nav ul li a {
 
 header nav ul li a:hover{
   background: #763a8b;
-  color: #3bceac;
+  color: #f7df0e;
   border-radius: 20px;
   padding: 5px 5px;
 }
